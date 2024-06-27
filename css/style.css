@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1a1a, #4d4d4d);
+    color: #FFD700; 
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #2e2e2e, #595959); 
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    color: #FFD700; 
+}
+.sidebar img {
+    width: 150px;
+    margin-bottom: 10px;
+    border: 2px solid #FFD700; 
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #FFD700; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); 
+    text-align: center;
+    background: linear-gradient(135deg, #111, #444);
+    color: #FFD700; 
+    transition: transform 0.3s, background 0.3s; 
+}
+.card:hover {
+    transform: scale(1.05); 
+    background: linear-gradient(135deg, #222, #555); 
+}
+.card img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.card h3, .card h2, .card p {
+    margin: 0 0 10px 0;
+}
+.card input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.btn-compare {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#btnCompare {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(135deg, #FFD700, #FFC400);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; 
+}
+#btnCompare:hover {
+    background: linear-gradient(135deg, #FFC400, #FFD700); 
+}
+#btn-Back {
+    text-align: left;
+    vertical-align: baseline;
+}
